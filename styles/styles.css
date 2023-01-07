@@ -146,6 +146,49 @@ header .custom button {
     font-weight: 500;
 }
 
+/* about my work section */
+#about-work {
+    padding: 0 100px 100px;
+}
+
+#about-work h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#about-work .about-work-main-package {
+    display: flex;
+    gap: 30px;
+}
+
+#about-work .custom {
+    width: 33.33%;
+    background-color: #FF3061;
+    color: white;
+    text-align: center;
+    padding: 30px 30px 35px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 13px gray;
+}
+
+#about-work .about-icon-item {
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#about-work h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: skyblue;
+}
+
+#about-work h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 /* footer section starts from here */
 footer {
     display: flex;
