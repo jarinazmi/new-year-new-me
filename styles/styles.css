@@ -42,3 +42,34 @@ header .custom button {
     border: none;
     border-radius: 5px;
 }
+
+/* failure section starts here */
+#failure {
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#failure img {
+    width: 500px;
+}
+
+#failure h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#failure p {
+    color: #444343;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+#failure .check-part {
+    margin-left: 10px;
+}
+
+#failure .icon {
+    color: #16D887;
+}
