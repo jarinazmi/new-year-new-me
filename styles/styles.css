@@ -56,7 +56,7 @@ header .custom button {
 }
 
 #failure h2 {
-    font-size: 45px;
+    font-size: 44px;
     margin-bottom: 20px;
 }
 
@@ -77,9 +77,19 @@ header .custom button {
 /* plan section starts from here */
 
 #plan {
+
+    padding: 0 150px 100px;
+}
+
+#plan h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#plan .main-package {
     display: flex;
     justify-content: space-between;
-    padding: 0 150px 100px;
 }
 
 #plan .custom {
@@ -92,5 +102,89 @@ header .custom button {
 
 #plan .custom p {
     margin-top: 7px;
+    font-weight: 500;
     color: #737272;
+}
+
+/* footer section starts from here */
+footer {
+    display: flex;
+    gap: 180px;
+    padding: 80px 150px;
+    background-color: #151414;
+    color: white;
+
+}
+
+
+footer .custom {
+    width: 45%;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer .icon-item {
+    display: flex;
+    background: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.fa-facebook-f {
+    color: #006AFF;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+footer h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    line-height: 1.5em;
+}
+
+footer .mail {
+    margin: 15px 0;
+}
+
+footer h5 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+input[type="email"] {
+    border: 1px solid white;
+    padding: 13px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 13px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inherit;
+    background-color: white;
+    color: #F15B22;
+    font-size: 18px;
+    font-weight: 500;
 }
