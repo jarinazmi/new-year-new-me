@@ -43,7 +43,7 @@ header .custom button {
     border-radius: 5px;
 }
 
-/* failure section starts here */
+/* failure section starts from here */
 #failure {
     padding: 100px 150px;
     display: flex;
@@ -72,4 +72,25 @@ header .custom button {
 
 #failure .icon {
     color: #16D887;
+}
+
+/* plan section starts from here */
+
+#plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 100px;
+}
+
+#plan .custom {
+    text-align: center;
+}
+
+#plan .custom img {
+    margin-bottom: 10px;
+}
+
+#plan .custom p {
+    margin-top: 7px;
+    color: #737272;
 }
